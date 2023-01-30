@@ -11,105 +11,143 @@
   src: url('../fonts/MullerRegular.woff2');
 }
 body{
-  font-family: MullerRegular;
-}
-h1, h2 {
-  font-family: "Russo one";
-}
+  font-family: 'Roboto';
+} 
 
 .first-screen{
-  background-image: url(../img/background.jpg);
+background-image: url(../img/background.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 800px;
+  /* height: 30%;  */
+ /* min-width: 1080px;  */
 }
 .content{
-  max-width: 1150px;
+  /* width: 100%; */
+  max-width: 1180px;
   margin: 0 auto;
-  width: 100%;
 }
 .upper{
   padding: 25px 0px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
+
 .logo{
   display: flex;
-  width: 225.22px;
-  height: 58px;
+  max-width: 425.22px;
+  height: 91px;
 }
 .logo img{
-  height: 40px;
+  width: 77.57px;
+  height: 80.56px;
 }
 .logo span{
+  display: inline-block;
+  width: 315px;
   color: #46B1DE;
-  font-size: 20px;
+  font-size: 38px;
   padding-left: 4px;
-  font-family: MullerRegular;
+  font-family: 'Sofia sans';
+  text-transform: uppercase;
+}
+#Home .logotext{
+  font-size: 26.85px;
+  text-transform: lowercase;
 }
 nav{
-  width: 301.05px;
-  height: 58px;
+  width: 350px;
+  height: 19px;
   display: grid;
-  grid-template-columns: 80px 80px 80px;
-  gap:30px;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 77.78px;
 }
 nav a{
   color: black;
   text-decoration: none;
+  font-size: 16px;
+  margin-left: 80px; 
 }
-
+.phone{
+  display: flex;
+  margin-left: 53px; 
+}
 .phone a{
+  width: 145px;
   color: black;
   text-decoration: none;
-  padding-left: 4px;
 }
-
+.phone img{
+ padding-left: 53px;
+ margin-right: 10px; 
+}
+.LanguageUp{
+  display: flex;
+  margin-left: 23px;
+ }
+.LanguageUp a{
+  color: black;
+  text-decoration: none;
+  padding: 0px 5px;
+}
+.middle{
+ width: 530px;
+ margin-top: 34px;
+ /* position: relative; */
+}
 h1{
   text-transform: uppercase;
-  width: 30%;
-  padding-top: 90px;
-  font-size: 34px;
+  max-width: 346px;
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 20px;
 }
 h1 span{
   color: #46B1DE;
-  white-space: pre;
+  white-space: pre; 
 }
 .middle p{
-  width: 38%;
-  font-weight: bold;
+  max-width: 464px;
+  font-size: 16;
 }
 .button{
-  margin: 50px 20px;
+  margin: 48px 0px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 .button a{
   text-decoration: none;
-  margin-right:  120px;
   text-transform: uppercase;
+  font-size: 16px;
+  margin-right: 120px;
 }
 .buttonCall{
+  max-width: 180px;
+  height: 60px;
   background-color:#46B1DE;
   color: white;
-  padding: 10px 30px;
-  border: 1px solid black;
+  padding: 16.5px 67px;
+  border-radius: 10px;
 }
 .buttonServices{
+  width: 180px;
+  height: 60px;
   background-color: white;
   color: #46B1DE;
-  padding: 10px 20px;
-  border: 1px solid black;
+  padding: 16.5px 67px;
+  border-radius: 10px;
 }
 .woman{
-  display: flex;
-  justify-content: flex-end;
+  display: inline-block;
+  width: 55%;
   position: absolute;
-  top: 12.5%;
-  right: 0.7%;
-  height: 85%;
+  top: 38%;
+  left: 35%;
+  height: auto;
   z-index: 1;
 }
+
 .lower{
   display: grid;
   margin: 22% 1% 13% 0;
@@ -141,6 +179,9 @@ h1 span{
  font-size: 45px;
  padding-right: 17px;
 }
+.tableboxes{
+  margin-top: 50px;
+}
 .text1{
   width: 54%;
 }
@@ -151,6 +192,7 @@ h1 span{
   width: 47%;
 }
 .table{
+  margin-top: 148px;
   text-align: center;
   font-size: 30px;
 }
